@@ -51,11 +51,12 @@ const Home = () => {
       <section className="hero-section">
         <div className="hero-container">
           <div className="hero-content animate-on-scroll">
-            <div className="hero-logo">
+            {/* Removed the logo-badge button */}
+            {/* <div className="hero-logo">
               <div className="logo-badge">
                 <span className="logo-text">TRUSSPAI</span>
               </div>
-            </div>
+            </div> */}
             <h1 className="hero-title">
               <span className="title-white">TRUSSPAI</span>
             </h1>
@@ -225,11 +226,11 @@ const Home = () => {
           <div className="info-grid">
             <div className="info-stats animate-on-scroll">
               <div className="stat-item">
-                <h3 className="stat-number">2.2 Billion</h3>
+                <h3 className="stat-number">297 Million</h3>
                 <p>people worldwide live with some kind of visual impairment</p>
               </div>
               <div className="stat-item">
-                <h3 className="stat-number">297 million</h3>
+                <h3 className="stat-number">40 million</h3>
                 <p>people are learning new languages every year</p>
               </div>
             </div>
@@ -275,7 +276,7 @@ const Home = () => {
         <div className="section-container">
           <h2 className="section-title animate-on-scroll">Competitive Analysis</h2>
           <p className="section-subtitle animate-on-scroll">
-            What we Offer
+            What we Offer?
           </p>
           <div className="competitive-table-wrapper animate-on-scroll">
             <table className="competitive-table">
@@ -349,55 +350,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Revenue Forecast Section */}
-      <section className="revenue-section">
-        <div className="section-container">
-          <h2 className="section-title animate-on-scroll">
-            <span className="title-orange">Revenue Forecast Phase 1</span>
-          </h2>
-          <p className="section-subtitle animate-on-scroll">
-            Scalable & sustainable revenue streams
-          </p>
-          <div className="revenue-grid">
-            <div className="revenue-card animate-on-scroll">
-              <div className="revenue-icon-wrapper">
-                <Users className="revenue-icon" />
-              </div>
-              <h4>Revenue Stream 1</h4>
-              <h5>Membership (Yearly and Monthly)</h5>
-              <ul>
-                <li>To level up</li>
-                <li>Invite more friends</li>
-                <li>Add more language set and courses to profile</li>
-                <li>Download your course etc.</li>
-                <li>Access to our premium services</li>
-              </ul>
-            </div>
-            <div className="revenue-card animate-on-scroll">
-              <div className="revenue-icon-wrapper">
-                <Award className="revenue-icon" />
-              </div>
-              <h4>Revenue Stream 2</h4>
-              <h5>Trusspai educational card</h5>
-              <ul>
-                <li>Selling of educational playing card on amazon and other e-commerce site</li>
-              </ul>
-            </div>
-            <div className="revenue-card animate-on-scroll">
-              <div className="revenue-icon-wrapper">
-                <Globe className="revenue-icon" />
-              </div>
-              <h4>Revenue Stream 3</h4>
-              <h5>GOVT. Collaboration for Blind Institute</h5>
-              <ul>
-                <li>Governments can purchase licenses or subscriptions</li>
-                <li>Payment by institute</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      
       
       {/* Society Impact Section */}
       <section className="impact-section">
@@ -432,12 +385,21 @@ const Home = () => {
           <div className="cta-content animate-on-scroll">
             <h2>Ready to Transform Language Learning?</h2>
             <p>
-              Join thousands of students who are already learning languages through our innovative
-              gaming platform.
+              Join our waitlist and get notified when we go live!
             </p>
-            <a href="/contact" className="cta-button">
-              Get Started Today
-            </a>
+            <button
+              type="button"
+              className="cta-button"
+              onClick={() =>
+                window.open(
+                  'https://docs.google.com/forms/d/1oRj0yHP0gDVIDbtha7NajVt5heuOV_t2TUge80R5WvM/edit?usp=drive_web&ouid=101506192588054239063',
+                  '_blank',
+                  'noopener,noreferrer'
+                )
+              }
+            >
+              Join Our Waitlist!
+            </button>
           </div>
         </div>
       </section>

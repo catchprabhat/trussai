@@ -255,7 +255,7 @@ const About = () => {
       <section className="future-section">
         <div className="section-container">
           <h2 className="section-title animate-on-scroll">
-            <span className="title-orange">Future</span>
+            <span className="title-orange">Scalable & Sustainable Future</span>
           </h2>
           <div className="future-grid">
             <div className="future-card animate-on-scroll">
