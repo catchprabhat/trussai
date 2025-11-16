@@ -274,7 +274,7 @@ const Home = () => {
       {/* Competitive Analysis Section */}
       <section className="competitive-section">
         <div className="section-container">
-          <h2 className="section-title animate-on-scroll">Competitive Analysis</h2>
+          
           <p className="section-subtitle animate-on-scroll">
             What we Offer?
           </p>
