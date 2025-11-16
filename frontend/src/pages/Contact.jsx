@@ -263,8 +263,7 @@ function Contact() {
             <div className="faq-item animate-on-scroll">
               <h3>How can I get started?</h3>
               <p>
-                You can download our app or sign up on our platform. We offer both free and
-                premium membership options to suit your learning needs.
+                We are currently in the development phase. Join our waitlist, and we will notify you as soon as our platform is ready.
               </p>
             </div>
             <div className="faq-item animate-on-scroll">
