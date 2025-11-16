@@ -31,7 +31,8 @@ const Footer = () => {
                 <li>Rahul Singh</li>
                 <li>+324664545615</li>
                 <li>rahulsinghme286@gmail.com</li>
-                <li>Chaussee de louvain 918,<br />1140 Evere</li>
+                <li>Rue de Grand-Bigard 14,<br />1082 Brussels Belgium
+</li>
               </ul>
             </div>
 

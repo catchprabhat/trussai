@@ -101,8 +101,9 @@ const Contact = () => {
                   </div>
                   <div className="contact-text">
                     <h3>Address</h3>
-                    <p>Chaussee de louvain 918</p>
-                    <p>1140 Evere, Belgium</p>
+                    <p>Rue de Grand-Bigard 14,</p>
+                    <p>1082 Brussels Belgium
+</p>
                   </div>
                 </div>
 

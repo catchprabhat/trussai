@@ -67,6 +67,7 @@
   margin: 0 auto;
 }
 
+/* Global heading style */
 .section-title {
   font-size: 3rem;
   font-weight: 700;
@@ -85,6 +86,7 @@
 
 .mission-content .section-title {
   text-align: left;
+  color: #ff6b35 !important; /* Ensure 'Our Mission' heading stays orange */
 }
 
 .mission-text {
@@ -174,7 +176,6 @@
   line-height: 1.6;
   font-size: 1rem;
 }
-
 /* What We Do Section */
 .what-we-do-section {
   background: #ffffff;
@@ -585,4 +586,10 @@
     padding: 1rem 2rem;
     font-size: 1rem;
   }
+}
+
+/* Optional: prevent white text on selection for this title */
+.what-we-do-section .section-title::selection {
+  background: transparent;
+  color: #ff6b35;
 }

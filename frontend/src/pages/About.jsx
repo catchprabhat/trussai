@@ -224,45 +224,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Partnerships */}
-      <section className="partnerships-section">
-        <div className="section-container">
-          <h2 className="section-title animate-on-scroll">Our Partnerships</h2>
-          <div className="partnerships-grid">
-            <div className="partnership-card animate-on-scroll">
-              <div className="partnership-icon">
-                <Building2 size={48} />
-              </div>
-              <h3>Sulopa Technologies</h3>
-              <p>
-                Team of dedicated 50+ Software engineers working in same sector since last 6+
-                years. Our collaboration with Sulopa brings enterprise-level expertise to our
-                platform.
-              </p>
-            </div>
-            <div className="partnership-card animate-on-scroll">
-              <div className="partnership-icon">
-                <Building2 size={48} />
-              </div>
-              <h3>Becentral</h3>
-              <p>
-                Working with Becentral to achieve our goals of making language learning
-                accessible and engaging for all students worldwide.
-              </p>
-            </div>
-            <div className="partnership-card animate-on-scroll">
-              <div className="partnership-icon">
-                <Rocket size={48} />
-              </div>
-              <h3>Startlab.brussels</h3>
-              <p>
-                Collaborating with Startlab.brussels to accelerate our growth and expand our
-                reach to more learners across Europe and beyond.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Achievements */}
       <section className="achievements-section">
@@ -293,7 +255,7 @@ const About = () => {
       <section className="future-section">
         <div className="section-container">
           <h2 className="section-title animate-on-scroll">
-            <span className="title-orange">Scalable & Sustainable</span> Future
+            <span className="title-orange">Future</span>
           </h2>
           <div className="future-grid">
             <div className="future-card animate-on-scroll">

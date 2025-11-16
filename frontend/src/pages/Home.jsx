@@ -59,12 +59,18 @@ const Home = () => {
             <h1 className="hero-title">
               <span className="title-white">TRUSSPAI</span>
             </h1>
-            <p className="hero-tagline">See Through Sound, Play Through Connection.</p>
+            <p className="hero-tagline"></p>
             <h2 className="hero-subtitle">
-              A <span className="highlight">GAME BASED LANGUAGE LEARNING</span> PLATFORM TO BRING
-              BLIND AND SIGHTED USER TOGETHER
+              <span className="highlight">A game-based, AI-powered language learning</span> platform connecting blind and sighted users.
             </h2>
-            <div className="hero-badge">VOCAB POKER</div>
+            <a
+              className="hero-badge"
+              href="https://docs.google.com/forms/d/1oRj0yHP0gDVIDbtha7NajVt5heuOV_t2TUge80R5WvM/edit?usp=drive_web&ouid=101506192588054239063"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Register Today
+            </a>
           </div>
           <div className="hero-image animate-on-scroll">
             <img
@@ -215,7 +221,7 @@ const Home = () => {
       {/* Information Section */}
       <section className="information-section">
         <div className="section-container">
-          <h2 className="section-title animate-on-scroll">Information (Phase 1)</h2>
+          <h2 className="section-title animate-on-scroll">Why TrusspAI</h2>
           <div className="info-grid">
             <div className="info-stats animate-on-scroll">
               <div className="stat-item">
@@ -223,7 +229,7 @@ const Home = () => {
                 <p>people worldwide live with some kind of visual impairment</p>
               </div>
               <div className="stat-item">
-                <h3 className="stat-number">40 million</h3>
+                <h3 className="stat-number">297 million</h3>
                 <p>people are learning new languages every year</p>
               </div>
             </div>
@@ -269,7 +275,7 @@ const Home = () => {
         <div className="section-container">
           <h2 className="section-title animate-on-scroll">Competitive Analysis</h2>
           <p className="section-subtitle animate-on-scroll">
-            Competitive edge in visual educational industry
+            What we Offer
           </p>
           <div className="competitive-table-wrapper animate-on-scroll">
             <table className="competitive-table">
@@ -294,67 +300,14 @@ const Home = () => {
                   <td><CheckCircle className="check-icon" /></td>
                   <td><CheckCircle className="check-icon" /></td>
                 </tr>
-                <tr>
-                  <td className="product-name">Mondly</td>
-                  <td><CheckCircle className="check-icon" /></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td className="product-name">Duo Lingo</td>
-                  <td><CheckCircle className="check-icon" /></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td className="product-name">MEMRISE</td>
-                  <td><CheckCircle className="check-icon" /></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
+                {/* Other product rows removed */}
               </tbody>
             </table>
           </div>
         </div>
       </section>
 
-      {/* Market Size Section */}
-      <section className="market-section">
-        <div className="section-container">
-          <h2 className="section-title animate-on-scroll">Market Size</h2>
-          <p className="market-subtitle animate-on-scroll">Huge market opportunity</p>
-          <div className="market-content">
-            <div className="market-stats animate-on-scroll">
-              <div className="market-stat">
-                <h3 className="market-number">40 MILLION</h3>
-                <p>Learn a language annually</p>
-              </div>
-              <p className="market-info">
-                Around 40% of U.S. college students have used AI and gaming for learning language.
-              </p>
-            </div>
-            <div className="market-circles animate-on-scroll">
-              <div className="market-circle som">
-                <span className="circle-label">SOM</span>
-                <span className="circle-value">$40M</span>
-              </div>
-              <div className="market-circle tam">
-                <span className="circle-label">TAM</span>
-                <span className="circle-value">$2B</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* Value Proposition Section */}
       <section className="value-section">
@@ -445,35 +398,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Beta Downloads Section */}
-      <section className="beta-section">
-        <div className="section-container">
-          <h2 className="section-title animate-on-scroll">POINTS TO HIGHLIGHTS</h2>
-          <div className="beta-content">
-            <div className="beta-stats animate-on-scroll">
-              <div className="beta-icon-wrapper">
-                <Rocket className="beta-icon" />
-              </div>
-              <h3>Beta App Downloads</h3>
-              <div className="download-stat">
-                <span className="download-number">13.5K+</span>
-                <span className="download-label">download on beta version launched in 2023</span>
-              </div>
-            </div>
-            <div className="beta-info animate-on-scroll">
-              <p className="beta-highlight">
-                13.5K+ downloads with excellent user feedback. Users appreciated the concept and
-                eagerly asked about the platform's future. No promotion was done all users came
-                through organic search.
-              </p>
-              <ul>
-                <li>Collaborating with Blind institute and customers as prelaunch customers</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      
       {/* Society Impact Section */}
       <section className="impact-section">
         <div className="section-container">
