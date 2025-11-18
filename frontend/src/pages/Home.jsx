@@ -159,9 +159,8 @@ function Home() {
                 alt="TrusspAI App"
                 className="app-mockup"
               />
-              <div className="educational-cards">
-                <h4>TRUSSPAI educational cards</h4>
-              </div>
+              {/* Single line text, box removed */}
+              <p className="educational-cards-caption">TRUSSPAI Educational Cards</p>
             </div>
             <div className="solutions-content">
               <h2 className="section-title animate-on-scroll">

@@ -179,7 +179,7 @@ const About = () => {
             <div className="team-member animate-on-scroll">
               <div className="team-img-wrapper">
                 <img
-                  src={`${process.env.PUBLIC_URL}/rahul.png`}
+                  src={`${process.env.PUBLIC_URL}/rahul.jpg`}
                   alt="Rahul Singh"
                   className="team-img"
                 />
