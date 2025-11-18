@@ -154,13 +154,20 @@ function Home() {
         <div className="section-container">
           <div className="solutions-grid">
             <div className="solutions-visual animate-on-scroll">
-              <img
-                src={`${process.env.PUBLIC_URL}/EC.png`}
-                alt="TrusspAI App"
-                className="app-mockup"
-              />
-              {/* Single line text, box removed */}
-              <p className="educational-cards-caption">TRUSSPAI Educational Cards</p>
+              {/* Blue box container with both images */}
+              <div className="visual-box">
+                <img
+                  src={`${process.env.PUBLIC_URL}/EC.png`}
+                  alt="TrusspAI App"
+                  className="app-mockup-inbox"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/mobile.png`}
+                  alt="Mobile preview"
+                  className="mobile-mockup-inbox"
+                />
+              </div>
+              <p className="educational-cards-caption">TrusspAI Mobile App and Educational cards</p>
             </div>
             <div className="solutions-content">
               <h2 className="section-title animate-on-scroll">

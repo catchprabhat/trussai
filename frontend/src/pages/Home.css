@@ -288,6 +288,45 @@
   margin-bottom: 2rem;
 }
 
+/* New mobile image styling */
+.mobile-mockup {
+  width: 40%;
+  max-width: 280px;
+  height: auto;
+  display: block;
+  margin: 0 auto 0.75rem; /* centers the image and adds spacing above the text */
+  filter: drop-shadow(0 8px 24px rgba(255, 107, 53, 0.25));
+}
+
+/* Unified blue box for both images */
+.visual-box {
+  background: transparent;      /* matches the page background */
+  border: none;                 /* remove border to blend in */
+  border-radius: 20px;
+  padding: 1.25rem;
+  box-shadow: none;             /* remove glow/shadow */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;            /* space between the two images */
+  margin-bottom: 1rem;  /* space above the caption */
+}
+
+/* First image inside the box */
+.app-mockup-inbox {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+
+/* Second (mobile) image inside the box */
+.mobile-mockup-inbox {
+  width: 45%;
+  max-width: 320px;
+  height: auto;
+  display: block;
+}
+
 .educational-cards {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
@@ -309,7 +348,7 @@
   font-size: 1.5rem;
   font-weight: 700;
   text-align: center;
-  margin-top: 0.75rem;
+  margin-top: 0.25rem;
 }
 
 .solutions-content {
