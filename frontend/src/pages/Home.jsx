@@ -20,7 +20,7 @@ import {
 } from 'lucide-react';
 import './Home.css';
 
-const Home = () => {
+function Home() {
   const observerRef = useRef(null);
 
   useEffect(() => {
@@ -75,8 +75,8 @@ const Home = () => {
           </div>
           <div className="hero-image animate-on-scroll">
             <img
-              src="https://images.unsplash.com/photo-1743192033279-57a6fa72585a?w=800"
-              alt="Gaming platform"
+              src={`${process.env.PUBLIC_URL}/Home.jpg`}
+              alt="TrusspAI Hero"
               className="hero-img"
             />
           </div>
@@ -90,7 +90,7 @@ const Home = () => {
           <div className="personas animate-on-scroll">
             <div className="persona-card">
               <img
-                src="https://images.unsplash.com/photo-1758270705518-b61b40527e76?w=400"
+                src={`${process.env.PUBLIC_URL}/jacobb.png`}
                 alt="Jacob"
                 className="persona-img"
               />
@@ -102,7 +102,7 @@ const Home = () => {
             </div>
             <div className="persona-card">
               <img
-                src="https://images.unsplash.com/photo-1758270705317-3ef6142d306f?w=400"
+                src={`${process.env.PUBLIC_URL}/Tomm.png`}
                 alt="Tom"
                 className="persona-img"
               />
@@ -155,7 +155,7 @@ const Home = () => {
           <div className="solutions-grid">
             <div className="solutions-visual animate-on-scroll">
               <img
-                src="https://images.unsplash.com/photo-1587741097323-0fdcee8b0e24?w=600"
+                src={`${process.env.PUBLIC_URL}/EC.png`}
                 alt="TrusspAI App"
                 className="app-mockup"
               />

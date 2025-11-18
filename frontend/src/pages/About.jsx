@@ -179,7 +179,7 @@ const About = () => {
             <div className="team-member animate-on-scroll">
               <div className="team-img-wrapper">
                 <img
-                  src="https://images.unsplash.com/photo-1758270705518-b61b40527e76?w=400"
+                  src={`${process.env.PUBLIC_URL}/rahul.png`}
                   alt="Rahul Singh"
                   className="team-img"
                 />
@@ -194,7 +194,7 @@ const About = () => {
             <div className="team-member animate-on-scroll">
               <div className="team-img-wrapper">
                 <img
-                  src="https://images.unsplash.com/photo-1758270705317-3ef6142d306f?w=400"
+                  src={`${process.env.PUBLIC_URL}/prabhat.png`}
                   alt="Prabhat Padhy"
                   className="team-img"
                 />
@@ -209,7 +209,7 @@ const About = () => {
             <div className="team-member animate-on-scroll">
               <div className="team-img-wrapper">
                 <img
-                  src="https://images.pexels.com/photos/34708698/pexels-photo-34708698.jpeg?w=400"
+                  src={`${process.env.PUBLIC_URL}/abhineet%20(2).png`}
                   alt="Abhineet Krishna"
                   className="team-img"
                 />
