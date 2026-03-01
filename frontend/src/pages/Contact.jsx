@@ -256,21 +256,13 @@ function Contact() {
             <div className="faq-item animate-on-scroll">
               <h3>What is TrusspAI?</h3>
               <p>
-                TrusspAI is a game-based language learning platform that brings blind and sighted
-                users together through interactive gaming experiences and AI-powered learning.
+                TrusspAI empowers institutions to reimagine education by transforming traditional courses into inclusive, and scalable AI-driven interactive learning experiences.
               </p>
             </div>
             <div className="faq-item animate-on-scroll">
               <h3>How can I get started?</h3>
               <p>
                 We are currently in the development phase. Join our waitlist, and we will notify you as soon as our platform is ready.
-              </p>
-            </div>
-            <div className="faq-item animate-on-scroll">
-              <h3>Is the platform accessible for blind users?</h3>
-              <p>
-                Yes! We provide comprehensive Braille-supported content and audio guidance to
-                ensure equal learning opportunities for all users.
               </p>
             </div>
             <div className="faq-item animate-on-scroll">

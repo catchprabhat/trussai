@@ -186,13 +186,7 @@ into engaging,inclusive, unbiased, and scalable interactive learning games
                   alt="TrusspAI App"
                   className="app-mockup-inbox"
                 />
-                <img
-                  src={`${process.env.PUBLIC_URL}/mobile.png`}
-                  alt="Mobile preview"
-                  className="mobile-mockup-inbox"
-                />
               </div>
-              <p className="educational-cards-caption">TrusspAI Mobile App and Educational cards</p>
             </div>
             <div className="solutions-content">
               <h2 className="section-title animate-on-scroll">
@@ -346,104 +340,8 @@ their students and keep track of their students progress.</p>
                   <td><span className="ca-check ca-check--primary">✓</span></td>
                   <td><span className="ca-check ca-check--primary">✓</span></td>
                 </tr>
-                <tr className="ca-row">
-                  <td className="ca-name">
-                    <span className="ca-name-icon" aria-hidden="true">◆</span>
-                    <span className="ca-name-text ca-name-text--moodle">MOODLE</span>
-                  </td>
-                  <td />
-                  <td />
-                  <td />
-                  <td />
-                  <td />
-                  <td><span className="ca-check">✓</span></td>
-                </tr>
-                <tr className="ca-row">
-                  <td className="ca-name">
-                    <span className="ca-name-icon ca-name-icon--duolingo" aria-hidden="true">
-                      <svg
-                        className="duolingo-owl"
-                        viewBox="0 0 64 64"
-                        role="img"
-                        focusable="false"
-                        aria-hidden="true"
-                      >
-                        <path
-                          d="M22 14c-3 0-6 2-7 5-6 3-10 10-10 18 0 14 12 25 27 25s27-11 27-25c0-8-4-15-10-18-1-3-4-5-7-5-4 0-7 3-8 7-1-1-2-2-4-2s-3 1-4 2c-1-4-4-7-8-7Zm-4 16a8 8 0 1 1 0 16 8 8 0 0 1 0-16Zm28 0a8 8 0 1 1 0 16 8 8 0 0 1 0-16ZM26 42c2 2 4 3 6 3s4-1 6-3c1-1 2-1 3 0s1 2 0 3c-3 3-6 5-9 5s-6-2-9-5c-1-1-1-2 0-3s2-1 3 0Z"
-                          fill="currentColor"
-                        />
-                        <circle cx="18" cy="38" r="3.5" fill="#ffffff" />
-                        <circle cx="46" cy="38" r="3.5" fill="#ffffff" />
-                      </svg>
-                    </span>
-                    <span className="ca-name-text">DuoLingo</span>
-                  </td>
-                  <td />
-                  <td />
-                  <td><span className="ca-check">✓</span></td>
-                  <td />
-                  <td><span className="ca-check">✓</span></td>
-                  <td />
-                </tr>
-                <tr className="ca-row">
-                  <td className="ca-name">
-                    <span className="ca-name-icon" aria-hidden="true">◉</span>
-                    <span className="ca-name-text">Vocaliv</span>
-                  </td>
-                  <td />
-                  <td />
-                  <td><span className="ca-check">✓</span></td>
-                  <td />
-                  <td />
-                  <td><span className="ca-check">✓</span></td>
-                </tr>
               </tbody>
             </table>
-          </div>
-        </div>
-      </section>
-
-      {/* Market Size Section */}
-      <section className="market-size-section">
-        <div className="section-container">
-          <div className="market-size-kicker animate-on-scroll">Market Size</div>
-          <div className="market-size-grid">
-            <div className="market-size-left animate-on-scroll">
-              <h2 className="market-size-heading">
-                <span className="market-size-heading-accent">Huge</span> market opportunity
-              </h2>
-              <div className="market-size-number">60k+ Institutions</div>
-              <div className="market-size-subline">
-                connected through European lifelong learning networks
-              </div>
-              <ul className="market-size-bullets">
-                <li>These institutions serve approximately 60 million students each year</li>
-                <li>
-                  The student population renews annually, creating recurring engagement
-                  opportunities
-                </li>
-                <li>
-                  This represents a strong yearly adoption market for AI-driven lifelong learning
-                  platforms like TRUSSPAI
-                </li>
-              </ul>
-              <div className="market-size-footnote">
-                Around 40% of U.S. college students have used AI and gaming for learning
-              </div>
-            </div>
-            <div className="market-size-right animate-on-scroll">
-              <div className="market-size-circles">
-                <div className="market-size-circle market-size-circle--som">
-                  <div className="ms-circle-label">SOM</div>
-                  <div className="ms-circle-value">$30-50 M</div>
-                </div>
-                <div className="market-size-circle market-size-circle--tam">
-                  <div className="ms-circle-label ms-circle-label--tam">TAM</div>
-                  <div className="ms-circle-value ms-circle-value--tam">$5B</div>
-                </div>
-              </div>
-              <div className="market-size-caption">Market size around the world</div>
-            </div>
           </div>
         </div>
       </section>
@@ -463,7 +361,7 @@ their students and keep track of their students progress.</p>
                 TRUSSPAI provides an 
 interactive learning and 
 gaming environment that 
-helps users learn a language 
+helps users learn a skill 
 easily.
               </p>
             </div>
@@ -527,7 +425,7 @@ skills at no cost or low cost.
       <section className="cta-section">
         <div className="section-container">
           <div className="cta-content animate-on-scroll">
-            <h2>Ready to Transform Language Learning?</h2>
+            <h2>Ready to Redefine the Future of Education?</h2>
             <p>
               Join our waitlist and get notified when we go live!
             </p>

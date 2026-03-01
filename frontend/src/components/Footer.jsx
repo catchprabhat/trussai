@@ -12,7 +12,7 @@ const Footer = () => {
               <span className="logo-truss">TRUSS</span>
               <span className="logo-pai">PAI</span>
             </h3>
-            <p className="footer-tagline">See Through Sound, Play Through Connection.</p>
+            <p className="footer-tagline">Turn Lessons into Adventure, Connections into Impact.</p>
           </div>
 
           <div className="footer-links">
