@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Users, Target, Lightbulb } from 'lucide-react';
+import { Users, Lightbulb } from 'lucide-react';
 import './About.css';
 
 const About = () => {
@@ -69,17 +69,6 @@ const About = () => {
         <div className="section-container">
           <h2 className="section-title animate-on-scroll">Our Vision & Values</h2>
           <div className="values-grid">
-            <div className="value-card animate-on-scroll">
-              <div className="value-icon-wrapper">
-                <Target className="value-icon" />
-              </div>
-              <h3>Breaking Barriers</h3>
-              <p>
-                We're committed to making language learning accessible to everyone, including
-                people with visual impairments. Our platform is designed with inclusivity at its
-                core.
-              </p>
-            </div>
             <div className="value-card animate-on-scroll">
               <div className="value-icon-wrapper">
                 <Lightbulb className="value-icon" />
